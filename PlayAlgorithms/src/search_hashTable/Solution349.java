@@ -1,4 +1,4 @@
-package searchWithHashTable;
+package search_hashTable;
 
 import java.util.HashSet;
 
