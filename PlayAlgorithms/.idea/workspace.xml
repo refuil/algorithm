@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a_sort/NonRecursionQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Move_Zeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Move_Zeros_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Sort_Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Sort_Colors_ThreeQuick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c_search_hashTable/Number_of_Boomerangs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d_linkedlist/Delete_Node_in_a_linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d_linkedlist/Remove_Linked_List_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d_linkedlist/Remove_Nth_Node_From_End_of_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d_linkedlist/Swap_Nodes_in_Pairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Binary_Tree_Inorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Inorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Level_Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Invert_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Lowest_Common_Ancestor_of_a_binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Maximum_Depth_of_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Letter_Combinations_of_a_phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/N_Queens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Climbing_Stairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/HouseRobber3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Integer_Break.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Integer_Break_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Knapsack2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Knapsack3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Longest_Common_Subsequence1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Longest_Increasing_Subsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Partition_Equal_Subset_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/Min_size_subarray_sun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Min_size_subarray_sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking/NumberOfILslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Number_of_Islands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_dynamic/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/Fibonacci3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_dynamic/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greedy/Assign_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/i_greedy/Assign_Cookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greedy/NonOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/i_greedy/NonOverlappingIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d_linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d_linkedlist/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search_hashTable/Contains_duplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search_hashTable/Solution349.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Intersection_of_Two_Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search_hashTable/Solution350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Intersection_of_Two_Array_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/SortTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a_sort/SortTestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackAndQueue/NonRecursizePreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Preorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackAndQueue/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_stackAndQueue/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreeLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTreeLevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Binary_Tree_Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreePaths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +14,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -185,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="23" />
+    <option name="x" value="161" />
+    <option name="y" value="30" />
     <option name="width" value="1280" />
     <option name="height" value="999" />
   </component>
@@ -235,6 +187,12 @@
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="g_recursion_and_backstracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="h_dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -407,17 +365,18 @@
       <workItem from="1576029476341" duration="2000" />
       <workItem from="1576029490957" duration="1545000" />
       <workItem from="1576121863809" duration="13242000" />
-      <workItem from="1576153104546" duration="598000" />
+      <workItem from="1576153104546" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93229000" />
+    <option name="totallyTimeSpent" value="93511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="23" width="1280" height="999" extended-state="0" />
+    <frame x="161" y="30" width="1280" height="999" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18359375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19136807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -633,20 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -768,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -780,6 +725,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
