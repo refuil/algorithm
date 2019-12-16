@@ -44,7 +44,7 @@ class Top_K_Frequent_Elements {
             int numFreq = freq.get(num);
             if(pq.size() == k){
                 if(numFreq > pq.peek().getKey()){
-                    pq.poll();
+                    pq.poll();  //返回头部元素，如果为空，返回null
                     pq.add(new Pair(numFreq, num));
                 }
             }
@@ -67,7 +67,7 @@ class Top_K_Frequent_Elements {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 1, 1, 2, 2, 3};
+        int[] nums = {1, 1, 1, 2, 2, 3,3,3,3};
         int k = 2;
         printList((new Top_K_Frequent_Elements()).topKFrequent(nums, k));
     }

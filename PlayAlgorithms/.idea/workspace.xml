@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="" />
+    <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/DenseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/ReadGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/BFS/SparseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/DFS/Components.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/DFS/DenseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/DFS/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/DFS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/DFS/ReadGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/DFS/SparseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/Finding_a_Path/DenseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/Finding_a_Path/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/Finding_a_Path/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/Finding_a_Path/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/Finding_a_Path/ReadGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_graph/Finding_a_Path/SparseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testG1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testG2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,40 +40,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
+        <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Components.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
+        <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/DenseGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
+        <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/ReadGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="612">
+              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Remove_Linked_List_Elements.java">
+        <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/SparseGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/j_graph/BFS/DenseGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/j_graph/Finding_a_Path/DenseGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -82,15 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/search_hashTable/Four_Sum_II.java" />
-        <option value="$PROJECT_DIR$/src/search_hashTable/Number_of_Boomerangs.java" />
-        <option value="$PROJECT_DIR$/src/search_hashTable/Contains_duplicates_II.java" />
-        <option value="$PROJECT_DIR$/src/search_hashTable/Solution.java" />
-        <option value="$PROJECT_DIR$/src/search_hashTable/Contains_Duplicates_III.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/Solution2.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/Remove_Linked_List_Elements.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/Swap_Nodes_in_Pairs.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/Solution.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/Delete_Node_in_a_linked_List.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/ListNode.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/Solution1.java" />
@@ -133,14 +164,23 @@
         <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Binary_Tree_Paths.java" />
         <option value="$PROJECT_DIR$/src/sort/NonRecursionQuickSort.java" />
         <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java" />
+        <option value="$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java" />
+        <option value="$PROJECT_DIR$/src/e_stackAndQueue/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/j_graph/Components.java" />
+        <option value="$PROJECT_DIR$/src/j_graph/DFS/Components.java" />
+        <option value="$PROJECT_DIR$/src/j_graph/SparseGraph.java" />
+        <option value="$PROJECT_DIR$/src/j_graph/DFS/SparseGraph.java" />
+        <option value="$PROJECT_DIR$/src/j_graph/BFS/DenseGraph.java" />
+        <option value="$PROJECT_DIR$/src/j_graph/Finding_a_Path/DenseGraph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="30" />
+    <option name="x" value="513" />
+    <option name="y" value="39" />
     <option name="width" value="1280" />
-    <option name="height" value="999" />
+    <option name="height" value="1342" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,49 +206,28 @@
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="j_graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="c_search_hashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="d_linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="g_recursion_and_backstracking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="h_dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="i_greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="j_graph" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dynamic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/j_graph/DFS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -219,22 +236,23 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/data" />
-      <recent name="$PROJECT_DIR$/src/python" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/j_graph/DFS" />
+      <recent name="$PROJECT_DIR$/src/j_graph/Finding_a_Path" />
+      <recent name="$PROJECT_DIR$/src/j_graph/BFS" />
+      <recent name="$PROJECT_DIR$/src/j_graph" />
+      <recent name="$PROJECT_DIR$/src/e_stackAndQueue" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="backstracking" />
       <recent name="tree" />
       <recent name="data" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/dynamic" />
-      <recent name="$PROJECT_DIR$/src/recursion_and_backstracking" />
-      <recent name="$PROJECT_DIR$/src/binary_tree_and_recursion" />
-      <recent name="$PROJECT_DIR$/src/stackAndQueue" />
-      <recent name="$PROJECT_DIR$/src/linkedlist" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/j_graph" />
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src/python" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,13 +267,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Permutations">
-    <configuration name="Contains_Duplicates_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c_search_hashTable.Contains_Duplicates_II" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="j_graph.DFS.Main" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c_search_hashTable.*" />
+          <option name="PATTERN" value="j_graph.DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Training" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Training" />
+    <configuration name="Prefect_Squares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e_stackAndQueue.Prefect_Squares" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="e_stackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="g_recursion_and_backstracking.WordSearch" />
+    <configuration name="Top_K_Frequent_Elements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e_stackAndQueue.Top_K_Frequent_Elements" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="g_recursion_and_backstracking.*" />
+          <option name="PATTERN" value="e_stackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Top_K_Frequent_Elements" />
+        <item itemvalue="Application.Prefect_Squares" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.NonRecursionQuickSort" />
-        <item itemvalue="Application.WordSearch" />
-        <item itemvalue="Application.Contains_Duplicates_II" />
-        <item itemvalue="Application.Training" />
       </list>
     </recent_temporary>
   </component>
@@ -366,17 +384,18 @@
       <workItem from="1576029490957" duration="1545000" />
       <workItem from="1576121863809" duration="13242000" />
       <workItem from="1576153104546" duration="880000" />
+      <workItem from="1576164154052" duration="445000" />
+      <workItem from="1576460060884" duration="10969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93511000" />
+    <option name="totallyTimeSpent" value="104925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="30" width="1280" height="999" extended-state="0" />
-    <editor active="true" />
+    <frame x="513" y="39" width="1280" height="1342" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19136807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19869708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -384,8 +403,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32873377" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" weight="0.21834415" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32818848" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.20389926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +412,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291874" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008143" side_tool="true" weight="0.327529" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3262987" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32468694" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="SBT Execute" order="13" side_tool="true" />
@@ -416,131 +435,6 @@
     <SUITE FILE_PATH="coverage/PlayAlgorithms$SortAlg.coverage" NAME="SortAlg Coverage Results" MODIFIED="1574064890573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Intersection_of_Two_Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Number_of_Boomerangs.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Swap_Nodes_in_Pairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Delete_Node_in_a_linked_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Remove_Nth_Node_From_End_of_List.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Binary_Tree_Inorder_Traversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Preorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Level_Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Maximum_Depth_of_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Invert_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_tree_and_recursion/BinaryTreePath.java" />
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/binary_tree_and_recursion/BinaryTreePaths.java" />
     <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum_II.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Inorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/a_sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -713,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,17 +612,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/javafx-src.zip!/javafx/util/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/IllegalStateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="725" column="9" lean-forward="true" selection-start-line="725" selection-start-column="9" selection-end-line="725" selection-end-column="9" />
+          <folding>
+            <element signature="e#21520#21550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Binary_Tree_Inorder_Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Inorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="243" column="43" lean-forward="true" selection-start-line="243" selection-start-column="43" selection-end-line="243" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Level_Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Components.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/BFS/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/BFS/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/Finding_a_Path/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/ReadGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/SparseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testG1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/Finding_a_Path/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>

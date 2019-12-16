@@ -42,4 +42,6 @@ public class Prefect_Squares {
         System.out.println((new Prefect_Squares()).numSquares(12));
         System.out.println((new Prefect_Squares()).numSquares(13));
     }
+
+
 }
