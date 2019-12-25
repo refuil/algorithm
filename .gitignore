@@ -8,3 +8,4 @@ target
 *.iml
 .idea
 venv
+.idea/workspace.xml
