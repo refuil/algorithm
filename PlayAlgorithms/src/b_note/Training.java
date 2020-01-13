@@ -1,8 +1,7 @@
 package b_note;
 
-import e_stackAndQueue.Binary_Tree_Inorder_Traversal;
+import d_linkedlist.ListNode;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Training {
@@ -319,6 +318,48 @@ public class Training {
         return groups.size();
     }
 
+    //21--Merge Two Sorted LinkedList
+    private ListNode mergeTwoList(ListNode A, ListNode B){
+        if(A == null)
+            return B;
+        if(B == null)
+            return A;
+
+        if(A.val < B.val){
+            A.next = mergeTwoList(A.next, B);
+            return A;
+        }else{
+            B.next = mergeTwoList(A, B.next);
+            return B;
+        }
+    }
+
+    //83--Remove duplicates in ListNode
+    private ListNode removeDuplicates(ListNode li){
+        if(li == null) return null;
+        ListNode res = new ListNode(-1);
+        res.next = li;
+        while(li != null && li.next != null){
+            if(li.val == li.next.val)
+                li.next = li.next.next;
+
+            li = li.next;
+        }
+        System.out.println(li);
+        return res.next;
+    }
+
+    //141--Linked List cycle
+    private boolean hasCycle(ListNode head){
+       ListNode slow = head, fast = head;
+       while(fast != null && fast.next != null){
+           slow = slow.next;
+           fast = fast.next.next;
+           if(slow == fast) return true;
+       }
+       return false;
+    }
+
     public static void main(String[] args) {
         int[] nums = {7,1,5,3,0,4};
         System.out.println((new Training()).BestTimeBuy(nums));
@@ -366,5 +407,14 @@ public class Training {
 
         String[] str = {"abc","acb","bac","bca","cab","cba"};
         System.out.println("Groups special str: "+ (new Training()).groupSpecialString(str));
+        //LinkedList
+        int[] liA = {1,3,3,5};
+        int[] liB = {2,4,7};
+        ListNode A = new ListNode(liA);
+        ListNode B = new ListNode(liB);
+        System.out.println("Merge two list:" + (new Training()).mergeTwoList(A, B));
+        ListNode A1 = new ListNode(liA);
+        System.out.println("Remove duplicate listNode:" + (new Training()).removeDuplicates(A1));
+
     }
 }

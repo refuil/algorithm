@@ -34,7 +34,6 @@ public class HouseRobber {
         return res;
     }
 
-
     public static void main(String[] args) {
 
         int nums[] = {2, 1, 4, 2,7};

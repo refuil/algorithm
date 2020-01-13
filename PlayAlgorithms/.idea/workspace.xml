@@ -2,9 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_note/CircleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_note/CircleQueue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/MazeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/MazeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/MonteCarloPiData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/MineSweeperData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Maze_Generalization/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Maze_Generalization/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Maze_Generalization/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Maze_Generalization/MazeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/MazeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/FractalData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_note/Training.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlayAlgorithms/array/note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_note/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_note/Training.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/e_stackAndQueue/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_stackAndQueue/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h_dynamic/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_dynamic/HouseRobber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +72,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/DenseGraph.java">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Maze_Generalization/AlgoVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="646">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/b_note/Training.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/MazeData.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/AlgoVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="313" column="26" lean-forward="true" selection-start-line="313" selection-start-column="26" selection-end-line="313" selection-end-column="26" />
+            <state relative-caret-position="695">
+              <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,19 +98,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum_II.java">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Letter_Combinations_of_a_phone.java">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="731">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoFrame.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/FractalData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -86,23 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/linkedlist/Remove_Nth_Node_From_End_of_List.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Binary_Tree_Inorder_Traversal.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Solution094.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Non_Recursize_Inorder.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Non_Recursize_Level_Order.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Solution2.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Prefect_Squares.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Solution.java" />
-        <option value="$PROJECT_DIR$/src/stackAndQueue/Top_K_Frequent_Elements.java" />
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Maximum_Depth_of_Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Path_Sum.java" />
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Path_Sum_II.java" />
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Solution.java" />
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Lowest_Common_Ancestor_of_a_binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/recursion_and_backstracking/Solution.java" />
-        <option value="$PROJECT_DIR$/src/recursion_and_backstracking/Letter_Combinations_of_a_phone.java" />
-        <option value="$PROJECT_DIR$/src/recursion_and_backstracking/Number_of_Islands.java" />
         <option value="$PROJECT_DIR$/src/dynamic/Climbing_Stairs.java" />
         <option value="$PROJECT_DIR$/src/dynamic/Integer_Break.java" />
         <option value="$PROJECT_DIR$/src/dynamic/Solution3.java" />
@@ -133,18 +206,35 @@
         <option value="$PROJECT_DIR$/src/j_graph/DFS/SparseGraph.java" />
         <option value="$PROJECT_DIR$/src/j_graph/BFS/DenseGraph.java" />
         <option value="$PROJECT_DIR$/src/j_graph/Finding_a_Path/DenseGraph.java" />
-        <option value="$PROJECT_DIR$/src/e_stackAndQueue/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/Training.java" />
         <option value="$PROJECT_DIR$/src/array/Training.java" />
+        <option value="$PROJECT_DIR$/src/b_note/LoopQueue.java" />
+        <option value="$PROJECT_DIR$/src/b_note/CircleQueue.java" />
+        <option value="$PROJECT_DIR$/src/b_note/CircleQueue2.java" />
+        <option value="$PROJECT_DIR$/src/b_note/Queue.java" />
+        <option value="$PROJECT_DIR$/src/e_stackAndQueue/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/b_note/Training.java" />
+        <option value="$PROJECT_DIR$/src/h_dynamic/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java" />
+        <option value="$PROJECT_DIR$/src/h_dynamic/HouseRobber.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/Circle.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/MazeData.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/MazeData.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Maze_Generalization/MazeData.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/MazeData.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Knuth-Shuffle/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoFrame.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
-    <option name="y" value="30" />
-    <option name="width" value="1228" />
-    <option name="height" value="1344" />
+    <option name="x" value="876" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="1358" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,7 +273,19 @@
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="b_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="c_search_hashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d_linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -207,14 +309,27 @@
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="j_graph" type="462c0819:PsiDirectoryNode" />
+              <item name="h_dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="j_graph" type="462c0819:PsiDirectoryNode" />
-              <item name="DFS" type="462c0819:PsiDirectoryNode" />
+              <item name="k_visualization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="k_visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="Non_Recursize_DFS_Maze" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="k_visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="Snowflake_Fractal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +342,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/j_graph/DFS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/k_visualization" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -238,13 +353,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/k_visualization" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation" />
+      <recent name="$PROJECT_DIR$/src/b_note" />
       <recent name="$PROJECT_DIR$/src/j_graph/DFS" />
-      <recent name="$PROJECT_DIR$/src/j_graph/Finding_a_Path" />
-      <recent name="$PROJECT_DIR$/src/j_graph/BFS" />
-      <recent name="$PROJECT_DIR$/src/j_graph" />
-      <recent name="$PROJECT_DIR$/src/e_stackAndQueue" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="b_note" />
       <recent name="backstracking" />
       <recent name="tree" />
       <recent name="data" />
@@ -268,13 +384,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Training">
-    <configuration name="Letter_Combinations_of_a_phone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="g_recursion_and_backstracking.Letter_Combinations_of_a_phone" />
+  <component name="RunManager" selected="Application.AlgoVisualizer (2)">
+    <configuration name="AlgoVisualizer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_visualization.Knuth_Shuffle.AlgoVisualizer" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="g_recursion_and_backstracking.*" />
+          <option name="PATTERN" value="k_visualization.Knuth_Shuffle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="j_graph.DFS.Main" />
+    <configuration name="AlgoVisualizer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_visualization.Snowflake_Fractal.AlgoVisualizer" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="j_graph.DFS.*" />
+          <option name="PATTERN" value="k_visualization.Snowflake_Fractal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,12 +411,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top_K_Frequent_Elements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e_stackAndQueue.Top_K_Frequent_Elements" />
+    <configuration name="AlgoVisualizer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_visualization.DFS_Maze_Generalization.AlgoVisualizer" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e_stackAndQueue.*" />
+          <option name="PATTERN" value="k_visualization.DFS_Maze_Generalization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,12 +424,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Training" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b_note.Training" />
+    <configuration name="AlgoVisualizer (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_visualization.Maze_Generalization.AlgoVisualizer" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b_note.*" />
+          <option name="PATTERN" value="k_visualization.Maze_Generalization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,12 +437,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e_stackAndQueue.ValidParentheses" />
+    <configuration name="AlgoVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_visualization.BFS_Maze_Generalization.AlgoVisualizer" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e_stackAndQueue.*" />
+          <option name="PATTERN" value="k_visualization.BFS_Maze_Generalization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Training" />
-        <item itemvalue="Application.Letter_Combinations_of_a_phone" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Top_K_Frequent_Elements" />
+        <item itemvalue="Application.AlgoVisualizer (2)" />
+        <item itemvalue="Application.AlgoVisualizer (1)" />
+        <item itemvalue="Application.AlgoVisualizer" />
+        <item itemvalue="Application.AlgoVisualizer (5)" />
+        <item itemvalue="Application.AlgoVisualizer (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -390,18 +506,31 @@
       <workItem from="1576851321776" duration="598000" />
       <workItem from="1576981725950" duration="597000" />
       <workItem from="1577021632438" duration="598000" />
-      <workItem from="1577065343013" duration="29284000" />
+      <workItem from="1577065343013" duration="39911000" />
+      <workItem from="1577461802504" duration="199000" />
+      <workItem from="1577669594590" duration="1882000" />
+      <workItem from="1577755994202" duration="866000" />
+      <workItem from="1577847110194" duration="454000" />
+      <workItem from="1577930052383" duration="598000" />
+      <workItem from="1577974227523" duration="605000" />
+      <workItem from="1578293434135" duration="5354000" />
+      <workItem from="1578322871592" duration="497000" />
+      <workItem from="1578361032136" duration="1044000" />
+      <workItem from="1578453762592" duration="2050000" />
+      <workItem from="1578492244233" duration="1169000" />
+      <workItem from="1578533388936" duration="868000" />
+      <workItem from="1578633446924" duration="599000" />
+      <workItem from="1578879279928" duration="2377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139915000" />
+    <option name="totallyTimeSpent" value="169104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="30" width="1228" height="1344" extended-state="0" />
-    <editor active="true" />
+    <frame x="876" y="23" width="1280" height="1358" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2244898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28338763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -409,13 +538,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32818848" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.20356853" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32765612" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.20288692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291874" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287891" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008143" side_tool="true" weight="0.327529" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32360098" />
@@ -428,7 +557,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32980457" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -441,373 +570,339 @@
     <SUITE FILE_PATH="coverage/PlayAlgorithms$SortAlg.coverage" NAME="SortAlg Coverage Results" MODIFIED="1574064890573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Partition_Equal_Subset_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Knapsack2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a_sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="6" selection-start-column="1" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Intersection_of_Two_Array_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a_sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_tree_and_recursion/Binary_Tree.java" />
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a_sort/SortTestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="72" column="59" lean-forward="true" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a_sort/NonRecursionQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Remove_Linked_List_Elements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/javafx-src.zip!/javafx/util/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/IllegalStateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          <folding>
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="725" column="9" lean-forward="true" selection-start-line="725" selection-start-column="9" selection-end-line="725" selection-end-column="9" />
-          <folding>
-            <element signature="e#21520#21550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Inorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="243" column="43" lean-forward="true" selection-start-line="243" selection-start-column="43" selection-end-line="243" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/MaxHeap.java" />
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Level_Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="493">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/BFS/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testG1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/Finding_a_Path/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/Components.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/ReadGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/SparseGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/BFS/DenseGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/Finding_a_Path/DenseGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/j_graph/DFS/DenseGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Letter_Combinations_of_a_phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Binary_Tree_Inorder_Traversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Maximum_Depth_of_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Invert_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/InvertBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTreeLevelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Binary_Tree_Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/b_note/LoopQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/b_note/Queue.java" />
     <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="408">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Delete_Node_in_a_linked_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/note" />
+    <entry file="file://$PROJECT_DIR$/src/a_sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/Sort_Colors_ThreeQuick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/b_note/Training.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="313" column="26" lean-forward="true" selection-start-line="313" selection-start-column="26" selection-end-line="313" selection-end-column="26" />
+        <state relative-caret-position="6358">
+          <caret line="376" column="61" selection-start-line="376" selection-start-column="61" selection-end-line="376" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java">
+    <entry file="file://$PROJECT_DIR$/src/array/FindPeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/N_Queens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/Sort_Colors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Number_of_Islands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/hive影评案例/MovieTypeUDTF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Climbing_Stairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedListSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/b_note/CircleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/b_note/CircleQueue2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoVisHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Monto_Carlo_Simulation/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/Circle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Get_Pi_with_Monte_Carlo/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/DFS_Maze_Generalization/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Maze_Generalization/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Maze_Generalization/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/MazeData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/BFS_Maze_Generalization/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/FractalData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Non_Recursize_DFS_Maze/AlgoVisHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
         </state>
       </provider>
     </entry>
