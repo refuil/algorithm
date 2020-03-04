@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+//全排列
 //开辟三个空间 ArrayList<List<Integer>> res 用于存储最后的数组结果
 //临时空间  LinkedList<Integer> p  借用链表的结构，增删最后一个元素，遍历一次复制给res
 //临时空间  boolean[] used 用于标记元素在上一层中已经用过

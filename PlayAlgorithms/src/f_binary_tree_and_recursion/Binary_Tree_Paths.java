@@ -47,4 +47,17 @@ public class Binary_Tree_Paths {
 
         return res;
     }
+
+    //将二叉树转换成 括号组成的字符串
+    //[1,2,3,4]   => "1(2(4))(3)"
+    public String tree2str(TreeNode t) {
+        if(t == null) return "";
+        StringBuilder res = new StringBuilder(Integer.toString(t.val));
+        if(t.left == null && t.right == null) return res.toString();
+        res.append("(");
+        res.append(tree2str(t.left) + ")");
+        if(t.right != null)
+            res.append("(" + tree2str(t.right) + ")");
+        return res.toString();
+    }
 }
