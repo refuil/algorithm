@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_stackAndQueue/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Mirror_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Trim_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Two_Sum_IIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlayAlgorithms/META-INF/PlayAlgorithms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTreeLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTree_Level_Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Binary_Tree_Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Binary_Tree_Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,39 +30,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="221" column="29" lean-forward="true" selection-start-line="221" selection-start-column="29" selection-end-line="221" selection-end-column="29" />
-              <folding>
-                <element signature="e#4599#4600#0" expanded="true" />
-                <element signature="e#4620#4621#0" expanded="true" />
-                <element signature="e#4940#4950#0" expanded="true" />
-                <element signature="e#6081#6095#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="444">
+              <caret line="255" column="30" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -82,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
+            <state relative-caret-position="986">
               <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/Longest_substring_without_repeat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -103,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTree_Level_Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="1054">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -113,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -197,9 +158,9 @@
         <option value="$PROJECT_DIR$/src/c_search_hashTable/four_sum.py" />
         <option value="$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java" />
         <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/WordSearch.java" />
-        <option value="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" />
-        <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" />
         <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java" />
+        <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" />
       </list>
     </option>
   </component>
@@ -210,9 +171,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="999" />
+    <option name="x" value="612" />
+    <option name="y" value="31" />
+    <option name="width" value="1200" />
+    <option name="height" value="1338" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -276,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgoVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="k_visualization.BFS_Maze_Generalization.AlgoVisualizer" />
+    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g_recursion_and_backstracking.Combinations" />
       <module name="PlayAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="k_visualization.BFS_Maze_Generalization.*" />
+          <option name="PATTERN" value="g_recursion_and_backstracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,10 +355,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Two_Sum_III" />
+        <item itemvalue="Application.Combinations" />
         <item itemvalue="Application.Mirror_Binary_Tree" />
         <item itemvalue="Application.AlgoVisualizer (2)" />
         <item itemvalue="Application.AlgoVisualizer (1)" />
-        <item itemvalue="Application.AlgoVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -463,18 +425,21 @@
       <workItem from="1578879279928" duration="3022000" />
       <workItem from="1581741746927" duration="22885000" />
       <workItem from="1582348737749" duration="111000" />
-      <workItem from="1582348855663" duration="52308000" />
+      <workItem from="1582348855663" duration="56700000" />
+      <workItem from="1583388098400" duration="8438000" />
+      <workItem from="1583414888172" duration="2456000" />
+      <workItem from="1583467301247" duration="967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245053000" />
+    <option name="totallyTimeSpent" value="261306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="960" height="999" extended-state="0" />
+    <frame x="754" y="39" width="1200" height="1338" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.2852423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.24303135" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.33788708" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -483,7 +448,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3265766" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.2027027" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" weight="0.2027027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/FindPeak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -781,27 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTree_Level_Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/Longest_substring_without_repeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/four_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/four_sum.py" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -809,16 +747,6 @@
           <folding>
             <element signature="e#10659#10660#0" expanded="true" />
             <element signature="e#10730#10731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,23 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="221" column="29" lean-forward="true" selection-start-line="221" selection-start-column="29" selection-end-line="221" selection-end-column="29" />
-          <folding>
-            <element signature="e#4599#4600#0" expanded="true" />
-            <element signature="e#4620#4621#0" expanded="true" />
-            <element signature="e#4940#4950#0" expanded="true" />
-            <element signature="e#6081#6095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="487">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -876,8 +791,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="397">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="255" column="30" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Four_Sum_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/Longest_substring_without_repeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/BinaryTree_Level_Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/HouseRobber3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>

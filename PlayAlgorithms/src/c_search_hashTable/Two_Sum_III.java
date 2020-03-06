@@ -50,21 +50,11 @@ public class Two_Sum_III {
 
   }
 
-//  public int maxSubArray(int[] nums) {
-//    int res = Integer.MIN_VALUE;
-//    for(int i =0; i < nums.length; i++){
-//      for(int j=0; j <= i; j++) {
-//        int sum = 0;
-//        for(int k = j; k <= i; k++) {
-//          sum += nums[k];
-//        }
-//        if(res < sum) res = sum;
-//      }
-//
-//    }
-//    return res;
-//  }
-
+   public class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) { val = x; }
+  }
 
   public String toString(char[] str){
     StringBuilder res = new StringBuilder();
@@ -183,19 +173,6 @@ public class Two_Sum_III {
     return fraction.toString();
   }
 
-  public void sortColors(int[] nums) {
-    int red =0, blue = nums.length-1;
-    for(int i=0; i<= blue; i++){
-      System.out.println("i:"+i + "red:"+red+"blue:"+blue);
-      if(nums[i] ==0){
-        swap(nums, i, red++);
-      }else if(nums[i] == 2){
-        swap(nums, i--, blue--);
-      }
-      System.out.println("i:"+i + "red:"+red+"blue:"+blue);
-    }
-    return;
-  }
 
   public List<List<Integer>> combinationSum(int[] candidates, int target) {
     List<List<Integer>> res = new ArrayList<>();
@@ -242,20 +219,136 @@ public class Two_Sum_III {
     }
   }
 
-  public void swap(int[] nums, int n1, int n2){
-    int temp = nums[n1];
-    nums[n1] = nums[n2];
-    nums[n2] = temp;
+  //////////////////////////////////////
+
+  List<List<String>> res;
+  public List<List<String>> partition(String s) {
+    res = new ArrayList<>();
+    List<String> out = new ArrayList<>();
+    helper(s, out, 0);
+    return res;
   }
+
+  //131 aab => a a b  / aa b
+  public void helper(String s, List<String> out, int index){
+    if(index == s.length()){
+      res.add(out);
+      return;
+    }
+    for(int i = index; i < s.length(); i++){
+      if(!isPalindrome(s, index, i)) continue;
+      out.add(s.substring(index, i-index+1));  //begin2 end 1 length3 outofbound
+      helper(s, out, i+1);
+      out.remove(out.size()-1);
+    }
+    return;
+  }
+
+  private boolean isPalindrome(String s, int start, int end){
+    while(start < end){
+      if(s.charAt(start) != s.charAt(end)) return false;
+      start++;
+      end--;
+    }
+    return true;
+  }
+
+  //格雷编码是一个二进制数字系统，在该系统中，两个连续的数值仅有一个位数的差异。
+  //给定一个代表编码总位数的非负整数 n，打印其格雷编码序列。格雷编码序列必须以 0 开头
+  //用到格雷码和二进制数之间的相互转化
+  public List<Integer> grayCode(int n) {
+    List<Integer> res = new ArrayList<>();
+    for(int i =0; i< Math.pow(2,n); i++){
+      res.add((i >>1) ^ 1);
+    }
+    return res;
+  }
+
+  //143 给定一个单链表 L：L0→L1→…→Ln-1→Ln ，
+  //将其重新排列后变为： L0→Ln→L1→Ln-1→L2→Ln-2→…
+  //你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换
+  //分为以下三个小问题：
+  //1. 使用快慢指针来找到链表的中点，并将链表从中点处断开，形成两个独立的链表。
+  //2. 将第二个链翻转。
+  //3. 将第二个链表的元素间隔地插入第一个链表中。
+
+  public void reorderList(ListNode head) {
+    if(head == null || head.next==null || head.next.next == null) return;
+    ListNode fast =head;
+    ListNode slow = head;
+    while(fast.next !=null && fast.next.next !=null){
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    ListNode mid = slow.next;  //找到中点
+    slow.next = null;
+    ListNode last = mid, pre = null;
+    while(last != null){      //第二个链翻转
+      ListNode next = last.next;
+      last.next = pre;
+      pre = last;
+      last = next;
+    }
+    while(head !=null && pre != null){  //第二个链表间隔插入第一个链表
+      ListNode next = head.next;
+      head.next = pre;
+      pre = pre.next;
+      head.next.next = next;
+      head = next;
+    }
+  }
+
+  //19
+  //只遍历一次就完成，需要用两个指针cur pre
+  //首先 cur 指针先向前走N步，如果此时 cur 指向空，说明N为链表的长度，则需要移除的为首元素，那么此时返回 head->nex即可，
+  //如果 cur 存在，再继续往下走，此时 pre 指针也跟着走，
+  // 直到 cur 为最后一个元素时停止，此时 pre 指向要移除元素的前一个元素，
+  // 再修改指针跳过需要移除的元素即可
+  public ListNode removeNthFromEnd(ListNode head, int n) {
+    if(head == null) return head;
+    ListNode cur = head;
+    ListNode pre = head;
+    for(int i=0; i<n; i++) cur = cur.next;
+    if(cur ==null) return head.next;
+    //cur存在,继续走
+    while(cur.next != null) {
+      cur = cur.next;
+      pre = pre.next;
+    }
+    pre.next = pre.next.next;
+    return head;
+  }
+
+  //61 旋转链表
+  //输入: 1->2->3->4->5->NULL, k = 2
+  //输出: 4->5->1->2->3->NULL
+  //一个指针的解法：遍历得到长度n，
+  // 把链表头和尾链接起来，在往后走n - k % n个节点就到达新链表的头结点前一个点，这时断开链表
+  public ListNode rotateRight(ListNode head, int k) {
+    if(head == null) return head;
+    ListNode cur = head;
+    int n =1;
+    while(cur.next != null) {
+      cur = cur.next;
+      n++;
+    }
+    cur.next = head;
+    int m = n - k % n;
+    for(int i=0; i <m; i++){
+      cur = cur.next;
+    }
+    ListNode newhead = cur.next;
+    cur.next = null;  //断开链表
+    return newhead;
+  }
+
 
   public static void main(String[] args) {
     int[] a = {-2,1,-3,4,-1,2,1,-5,4};
     HashMap<Character, Integer> map = new HashMap<>();
     int[] a1 = {2,0,2,1,1,0};
+    ArrayList<Integer> res = new ArrayList<>();
 
-    (new Two_Sum_III()).sortColors(a1);
-    List<List<Integer>> res = new ArrayList<>();
-    res.remove(res.size());
 
   }
 
