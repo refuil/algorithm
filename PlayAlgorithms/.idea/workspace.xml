@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/d_linkedlist/Solutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" afterDir="false" />
     </list>
@@ -31,11 +33,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="255" column="30" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="266" selection-start-line="266" selection-end-line="266" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Solutions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Remove_Linked_List_Elements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -85,8 +122,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,6 +136,7 @@
       <find>BinaryTreePath</find>
       <find>builder</find>
       <find>que</find>
+      <find>ListNode</find>
     </findStrings>
     <replaceStrings>
       <replace>Binary_Tree_Paths</replace>
@@ -110,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Main.java" />
-        <option value="$PROJECT_DIR$/src/binary_tree_and_recursion/Binary_Tree_Paths.java" />
         <option value="$PROJECT_DIR$/src/sort/NonRecursionQuickSort.java" />
         <option value="$PROJECT_DIR$/src/e_stackAndQueue/Prefect_Squares.java" />
         <option value="$PROJECT_DIR$/src/e_stackAndQueue/Top_K_Frequent_Elements.java" />
@@ -161,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java" />
         <option value="$PROJECT_DIR$/src/g_recursion_and_backstracking/Permutations.java" />
         <option value="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" />
+        <option value="$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java" />
+        <option value="$PROJECT_DIR$/src/d_linkedlist/Solutions.java" />
       </list>
     </option>
   </component>
@@ -171,10 +209,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="612" />
-    <option name="y" value="31" />
-    <option name="width" value="1200" />
-    <option name="height" value="1338" />
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -207,7 +244,19 @@
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="b_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="c_search_hashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d_linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -428,18 +477,20 @@
       <workItem from="1582348855663" duration="56700000" />
       <workItem from="1583388098400" duration="8438000" />
       <workItem from="1583414888172" duration="2456000" />
-      <workItem from="1583467301247" duration="967000" />
+      <workItem from="1583467301247" duration="12521000" />
+      <workItem from="1583501350365" duration="3184000" />
+      <workItem from="1583577382366" duration="968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261306000" />
+    <option name="totallyTimeSpent" value="277012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="39" width="1200" height="1338" extended-state="0" />
+    <frame x="0" y="23" width="960" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.24303135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.32268724" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.33788708" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -479,47 +530,6 @@
     <SUITE FILE_PATH="coverage/PlayAlgorithms$SortAlg.coverage" NAME="SortAlg Coverage Results" MODIFIED="1574064890573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/k_visualization/Snowflake_Fractal/AlgoFrame.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/k_visualization/Knuth_Shuffle/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_stackAndQueue/Non_Recursize_Level_Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Binary_Tree_Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#557#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Path_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -796,10 +806,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
+    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="255" column="30" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
+        <state relative-caret-position="527">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Remove_Linked_List_Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -831,6 +848,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/b_note/CircleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/b_note/Training.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d_linkedlist/Solutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
