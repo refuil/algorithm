@@ -229,15 +229,15 @@ public class Two_Sum_III {
     return res;
   }
 
-  //131 aab => a a b  / aa b
+  //aab => a a b  / aa b
   public void helper(String s, List<String> out, int index){
     if(index == s.length()){
-      res.add(out);
+      res.add(new ArrayList<>(out));
       return;
     }
     for(int i = index; i < s.length(); i++){
       if(!isPalindrome(s, index, i)) continue;
-      out.add(s.substring(index, i-index+1));  //begin2 end 1 length3 outofbound
+      out.add(s.substring(index, i+1));
       helper(s, out, i+1);
       out.remove(out.size()-1);
     }
@@ -266,6 +266,17 @@ public class Two_Sum_III {
 
 
 
+  private boolean valid(String s, int left, int right) {
+    // 验证子串 s[left, right] 是否为回文串
+    while (left < right) {
+      if (s.charAt(left) != s.charAt(right)) {
+        return false;
+      }
+      left++;
+      right--;
+    }
+    return true;
+  }
 
 
 
