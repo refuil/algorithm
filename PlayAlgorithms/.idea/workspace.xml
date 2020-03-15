@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f53cfc7-cada-41f0-8f3d-598c4092f492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/Solutions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_dynamic/Solutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_code/array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/FindPeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindPeak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Solutions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array/Solutions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+            <state relative-caret-position="544">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +45,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/Solutions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interview_code/array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/h_dynamic/Solutions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="4012">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/e_stackAndQueue/MaxHeap.java" />
         <option value="$PROJECT_DIR$/src/j_graph/Components.java" />
         <option value="$PROJECT_DIR$/src/j_graph/DFS/Components.java" />
         <option value="$PROJECT_DIR$/src/j_graph/SparseGraph.java" />
@@ -159,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java" />
         <option value="$PROJECT_DIR$/src/h_dynamic/Solutions.java" />
         <option value="$PROJECT_DIR$/src/array/Solutions.java" />
+        <option value="$PROJECT_DIR$/src/interview_code/array.java" />
       </list>
     </option>
   </component>
@@ -169,10 +187,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1136" />
     <option name="y" value="23" />
-    <option name="width" value="1380" />
-    <option name="height" value="1358" />
+    <option name="width" value="960" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,12 +261,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="h_dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="i_greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlayAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlayAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_code" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,18 +470,21 @@
       <workItem from="1583467301247" duration="12521000" />
       <workItem from="1583501350365" duration="3184000" />
       <workItem from="1583577382366" duration="8637000" />
-      <workItem from="1583718399319" duration="22049000" />
+      <workItem from="1583718399319" duration="25070000" />
+      <workItem from="1584000630353" duration="4732000" />
+      <workItem from="1584156448566" duration="12000" />
+      <workItem from="1584181665645" duration="2833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306730000" />
+    <option name="totallyTimeSpent" value="317328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1136" y="23" width="1380" height="1358" extended-state="0" />
+    <frame x="0" y="23" width="960" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.22665663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.21806167" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.33788708" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -461,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3265766" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.20128308" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" weight="0.20045045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +501,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287891" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008143" side_tool="true" weight="0.327529" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3231982" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3231756" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="SBT Execute" order="13" side_tool="true" />
@@ -492,27 +524,6 @@
     <SUITE FILE_PATH="coverage/PlayAlgorithms$SortAlg.coverage" NAME="SortAlg Coverage Results" MODIFIED="1574064890573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Contains_Duplicates_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Intersection_of_Two_Array_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Intersection_of_Two_Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -540,23 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -738,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/Combinations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -756,30 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,22 +805,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Solutions.java">
+    <entry file="file://$PROJECT_DIR$/src/array/Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/Solutions.java">
+    <entry file="file://$PROJECT_DIR$/src/c_search_hashTable/Two_Sum_III.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/Two_Sum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_binary_tree_and_recursion/Solutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Solutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4012">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/g_recursion_and_backstracking/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/Solutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h_dynamic/Fibonacci3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview_code/array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
