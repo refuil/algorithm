@@ -38,11 +38,26 @@ public class array {
         }
     }
 
-    public static void main(String[] args) {
-        int[] res = {5,7,7,8,8,10};
+    //11 旋转数组的最小数字
+    public int minArray(int[] numbers) {
+        int len = numbers.length;
+        int left = 0, right = len-1;
+        while(left < right){
+            int mid = (right + left)/2;
+            if(numbers[mid] > numbers[right])
+                left = mid+1;
+            else if(numbers[mid] < numbers[right])
+                right = mid;
+            else right--;
+        }
+        return numbers[left];
+    }
 
-        Stack<Integer> stack = new Stack<>();
-        int[] a1 = {2,2,3,2};
+
+    public static void main(String[] args) {
+        int[] res = {3,4,5,1,2};
+        System.out.println((new array()).minArray(res));
+
 
     }
 }
