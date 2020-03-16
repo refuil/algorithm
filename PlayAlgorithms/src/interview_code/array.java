@@ -53,6 +53,17 @@ public class array {
         return numbers[left];
     }
 
+    //15
+    public int hammingWeight(int n) {
+        
+    }
+
+    //16 数值的整数次方
+    public double myPow(double x, int n) {
+
+    }
+
+
 
     public static void main(String[] args) {
         int[] res = {3,4,5,1,2};
