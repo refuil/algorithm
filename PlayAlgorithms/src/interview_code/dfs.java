@@ -3,6 +3,13 @@ package interview_code;
 import java.util.*;
 
 public class dfs {
+    public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+    }
+
     class Node {
         int val;
         Node next;
@@ -86,6 +93,44 @@ public class dfs {
 //        return head;
 //    }
 
+    //55-1. 平衡二叉树
+    public boolean isBalanced(TreeNode root) {
+        int[] h = new int[1];
+        return isBalanced(root, h);
+    }
+    public boolean isBalanced(TreeNode root, int[] height) {
+        if (root == null) {
+            height[0] = 0;
+            return true;
+        }
+        int[] lh = new int[1];
+        int[] rh = new int[1];
+        if (isBalanced(root.left, lh) &&
+                isBalanced(root.right, rh) &&
+                Math.abs(lh[0]-rh[0])<=1) {
+            height[0] = 1+Math.max(lh[0], rh[0]);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public int[] twoSum(int[] nums, int target) {
+        int len = nums.length;
+        int left=0, right = len-1;
+        while(left < right){
+            // int mid = (right -left)/2;
+            int sum = nums[left] + nums[right];
+            if(sum == target){
+                return new int[]{nums[left],nums[right]};
+            }else if(target < sum){
+                right--;
+            }else{
+                left++;
+            }
+        }
+        return new int[]{};
+    }
 
 
     public static void main(String[] args) {
