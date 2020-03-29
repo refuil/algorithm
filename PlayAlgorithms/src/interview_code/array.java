@@ -1,5 +1,7 @@
 package interview_code;
 
+import com.sun.jmx.remote.internal.ArrayQueue;
+
 import java.lang.reflect.Array;
 import java.util.*;
 
@@ -419,91 +421,182 @@ public class array {
     }
 
     //51. 数组中的逆序对
-        // 后有序数组中元素出列的时候，计算逆序个数
+    // 后有序数组中元素出列的时候，计算逆序个数
 
-        public int reversePairs(int[] nums) {
-            int len = nums.length;
-            if (len < 2) {
-                return 0;
-            }
-            int[] temp = new int[len];
-            return reversePairs(nums, 0, len - 1, temp);
+    public int reversePairs(int[] nums) {
+        int len = nums.length;
+        if (len < 2) {
+            return 0;
+        }
+        int[] temp = new int[len];
+        return reversePairs(nums, 0, len - 1, temp);
+    }
+
+    /**
+     * 计算在数组 nums 的索引区间 [left, right] 内统计逆序对
+     *
+     * @param nums  待统计的数组
+     * @param left  待统计数组的左边界，可以取到
+     * @param right 待统计数组的右边界，可以取到
+     * @return
+     */
+    private int reversePairs(int[] nums, int left, int right, int[] temp) {
+        // 极端情况下，就是只有 1 个元素的时候，这里只要写 == 就可以了，不必写大于
+        if (left == right) {
+            return 0;
         }
 
-        /**
-         * 计算在数组 nums 的索引区间 [left, right] 内统计逆序对
-         *
-         * @param nums  待统计的数组
-         * @param left  待统计数组的左边界，可以取到
-         * @param right 待统计数组的右边界，可以取到
-         * @return
-         */
-        private int reversePairs(int[] nums, int left, int right, int[] temp) {
-            // 极端情况下，就是只有 1 个元素的时候，这里只要写 == 就可以了，不必写大于
-            if (left == right) {
-                return 0;
-            }
+        int mid = (left + right) >>> 1;
 
-            int mid = (left + right) >>> 1;
+        int leftPairs = reversePairs(nums, left, mid, temp);
+        int rightPairs = reversePairs(nums, mid + 1, right, temp);
 
-            int leftPairs = reversePairs(nums, left, mid, temp);
-            int rightPairs = reversePairs(nums, mid + 1, right, temp);
-
-            int reversePairs = leftPairs + rightPairs;
-            if (nums[mid] <= nums[mid + 1]) {
-                return reversePairs;
-            }
-
-            int reverseCrossPairs = mergeAndCount(nums, left, mid, right, temp);
-            return reversePairs + reverseCrossPairs;
-
+        int reversePairs = leftPairs + rightPairs;
+        if (nums[mid] <= nums[mid + 1]) {
+            return reversePairs;
         }
 
-        /**
-         * [left, mid] 有序，[mid + 1, right] 有序
-         * @param nums
-         * @param left
-         * @param mid
-         * @param right
-         * @param temp
-         * @return
-         */
-        private int mergeAndCount(int[] nums, int left, int mid, int right, int[] temp) {
-            // 复制到辅助数组里，帮助我们完成统计
-            for (int i = left; i <= right; i++) {
-                temp[i] = nums[i];
-            }
+        int reverseCrossPairs = mergeAndCount(nums, left, mid, right, temp);
+        return reversePairs + reverseCrossPairs;
 
-            int i = left;
-            int j = mid + 1;
-            int res = 0;
-            for (int k = left; k <= right; k++) {
-                if (i > mid) {
-                    // i 用完了，只能用 j
-                    nums[k] = temp[j];
-                    j++;
-                } else if (j > right) {
-                    // j 用完了，只能用 i
-                    nums[k] = temp[i];
-                    i++;
-                } else if (temp[i] <= temp[j]) {
-                    // 此时前数组元素出列，不统计逆序对
-                    nums[k] = temp[i];
-                    i++;
-                } else {
-                    // 此时后数组元素出列，统计逆序对，快就快在这里，一次可以统计出一个区间的个数的逆序对
-                    nums[k] = temp[j];
-                    j++;
-                    res += (mid - i + 1);
+    }
+
+    /**
+     * [left, mid] 有序，[mid + 1, right] 有序
+     * @param nums
+     * @param left
+     * @param mid
+     * @param right
+     * @param temp
+     * @return
+     */
+    private int mergeAndCount(int[] nums, int left, int mid, int right, int[] temp) {
+        // 复制到辅助数组里，帮助我们完成统计
+        for (int i = left; i <= right; i++) {
+            temp[i] = nums[i];
+        }
+
+        int i = left;
+        int j = mid + 1;
+        int res = 0;
+        for (int k = left; k <= right; k++) {
+            if (i > mid) {
+                // i 用完了，只能用 j
+                nums[k] = temp[j];
+                j++;
+            } else if (j > right) {
+                // j 用完了，只能用 i
+                nums[k] = temp[i];
+                i++;
+            } else if (temp[i] <= temp[j]) {
+                // 此时前数组元素出列，不统计逆序对
+                nums[k] = temp[i];
+                i++;
+            } else {
+                // 此时后数组元素出列，统计逆序对，快就快在这里，一次可以统计出一个区间的个数的逆序对
+                nums[k] = temp[j];
+                j++;
+                res += (mid - i + 1);
+            }
+        }
+        return res;
+    }
+
+    //57 和为s的连续正数序列
+    public int[][] findContinuousSequence(int target) {
+        int i = 1; // 滑动窗口的左边界
+        int j = 1; // 滑动窗口的右边界
+        int sum = 0; // 滑动窗口中数字的和
+        List<int[]> res = new ArrayList<>();
+
+        while (i <= target / 2) {
+            if (sum < target) {
+                // 右边界向右移动
+                sum += j;
+                j++;
+            } else if (sum > target) {
+                // 左边界向右移动
+                sum -= i;
+                i++;
+            } else {
+                // 记录结果
+                int[] arr = new int[j-i];
+                for (int k = i; k < j; k++) {
+                    arr[k-i] = k;
+                }
+                res.add(arr);
+                // 左边界向右移动
+                sum -= i;
+                i++;
+            }
+        }
+        return res.toArray(new int[res.size()][]);
+    }
+
+
+    //58 翻转单词顺序
+    public String reverseWords(String s){
+        String[] a = s.trim().split(" +");
+        StringBuilder sb = new StringBuilder();
+        for(int i = a.length-1;i>=0;i--){
+            sb.append(a[i]);
+            sb.append(" ");
+        }
+        return sb.toString().trim();
+    }
+
+    //59-I. 滑动窗口的最大值
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int left=0, right = left + k;
+        int max = nums[0];
+        ArrayList<Integer> res = new ArrayList<>();
+        for(int i=0; i < nums.length-k; i++){
+            max = Math.max(nums[left], nums[right]);
+            res.add(max);
+            left++;
+            right++;
+        }
+        int[] ans = new int[res.size()];
+        for(int i=0; i< res.size(); i++) ans[i] = res.get(i);
+        return ans;
+    }
+
+    //59-II. 队列的最大值
+
+    //60. n个骰子的点数
+    public double[] twoSum(int n) {
+        int [][]dp = new int[n+1][6*n+1];
+        //边界条件
+        for(int s=1;s<=6;s++)dp[1][s]=1;
+        for(int i=2;i<=n;i++){
+            for(int s=i;s<=6*i;s++){
+                //求dp[i][s]
+                for(int d=1;d<=6;d++){
+                    if(s-d<i-1)break;//为0了
+                    dp[i][s]+=dp[i-1][s-d];
                 }
             }
-            return res;
         }
+        double total = Math.pow((double)6,(double)n);
+        double[] ans = new double[5*n+1];
+        for(int i=n;i<=6*n;i++){
+            ans[i-n]=((double)dp[n][i])/total;
+        }
+        return ans;
+    }
+
+
+    //61. 扑克牌中的顺子
+
+    //62. 圆圈中最后剩下的数字
+
+    //63. 股票最大收益
 
     public static void main(String[] args) {
         int[] res = {3,4,5,1,2};
         System.out.println((new array()).firstUniqChar("leetcode"));
 
+        Queue<Integer> queue = new ArrayDeque<>();
 
     }
 }
